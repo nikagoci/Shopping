@@ -16,7 +16,7 @@ import MenClothes from "./Pages/MensClothes";
 import Checkout from "./Pages/Checkout";
 import Products from "./Pages/Products";
 import { CartContextProvider } from "./Context/CartContext";
-reds
+
 function App() {
   const [inputSearchValue, setInputSearchValue] = useState("");
   const [modalFinalContent, setModalFinalContent] = useState("");
