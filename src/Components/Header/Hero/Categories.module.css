@@ -1,0 +1,50 @@
+.categories{
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categories button{
+    background-color: #f3f3f3;
+    color: #3D3D3D;
+    margin-left: 2rem;
+    text-transform: capitalize;
+}
+
+.categories button:hover{
+    background-color: #e9e8e8;
+}
+
+.categories a{
+    color: #3D3D3D;
+}
+
+.midContainer{
+    padding-top: 4rem;
+}
+
+.active button{
+    transform: scale(1.1) !important;
+    background-color: #59B210 !important;
+    color: #fff !important;
+}
+
+@media screen and (max-width: 1020px) {
+    .categories{
+        flex-direction: column;
+    }
+    .categories a{
+        text-align: center;
+    }
+    .categories button{
+        width: 90%;
+        margin: 0;
+    }
+    .active button{
+        transform: scale(1) !important;
+        margin: 0;
+    }
+    
+}

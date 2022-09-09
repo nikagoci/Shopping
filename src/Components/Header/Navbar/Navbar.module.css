@@ -1,0 +1,111 @@
+nav{
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+nav .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divSearch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.divSearch input{
+    width: 50%;
+    height: 50px;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    border: 3px solid #c6c6c6;
+    border-radius: 7px;
+    
+}
+
+.search{
+    background-color: #59B210;
+    width: 3rem;
+    height: 3.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    border-radius: 7px;
+    position: absolute;
+    top: 0;
+    left: 69.3%;
+    transition: .3s ease;
+}
+
+.search:hover{
+    background-color: #939393;
+}
+
+.cart{
+    display: flex;
+    position: relative;
+    background-color: #37525c;
+    border-radius: 10px;
+    padding: 0.2rem 1rem;
+}
+
+.cart div:first-child{
+    margin-right: 1rem;
+}
+
+.cart div:first-child span {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 4%;
+    left: 16%;
+    border-radius: 50%;
+    background-color: #59B210;
+    color: #fff;
+    width: 1.5rem;
+    height: 1.6rem;
+}
+
+.cart div:last-child h3{
+    font-size: 1.3rem;
+    width: 7rem;
+    font-weight: lighter;
+}
+
+.cart div:last-child h2{
+    letter-spacing: 0.1rem;
+    color: #59B210;
+}
+
+.logo-svg{
+    fill: #59B210;
+}
+
+nav button {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 745px) {
+    nav .container{
+        flex-direction: column;
+    }
+    nav .container > *:not(button){
+        padding: 1rem 0;
+        border-bottom: 5px solid #e5daff8a;
+        width: 100%;
+        text-align: center;
+    }
+    nav .container > button{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    nav .divSearch input{
+        width: min(400px, 100%);
+    }
+}

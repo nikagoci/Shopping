@@ -1,0 +1,41 @@
+.list-wrapper .first img{
+    margin-top: 0.5rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.list-wrapper .first p{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.list-wrapper{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    padding: 1rem 0;
+}
+
+.list-wrapper .second h3{
+    font-size: 2rem;
+    color:#59B210;
+    margin-bottom: 0.5rem;
+}
+
+.firstButton{
+    display: block;
+    margin: 0 auto 0.5rem auto;
+}
+
+.secondButton{
+    background-color: #b510b5;
+}
+
+.secondButton:hover{
+    background-color: #e334e3;
+}

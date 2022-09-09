@@ -1,0 +1,19 @@
+.notification{
+    color: #2700ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    background-color: #71e371;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.notification h3{
+    display: inline-block;
+}
